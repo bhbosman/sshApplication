@@ -9,7 +9,6 @@ require (
 	github.com/bhbosman/goUi v0.0.0-20220625174028-03193a90ee79
 	github.com/bhbosman/gocommon v0.0.0-20220718213201-2711fee77ae4
 	github.com/bhbosman/gocomms v0.0.0-20220628074707-e93417aaaed2
-	github.com/bhbosman/goprotoextra v0.0.2-0.20210817141206-117becbef7c7
 	github.com/cskr/pubsub v1.0.2
 	github.com/gdamore/tcell/v2 v2.5.1
 	github.com/reactivex/rxgo/v2 v2.5.0
@@ -26,6 +25,7 @@ require (
 	github.com/bhbosman/goFxAppManager v0.0.0-20220625173841-bbd050c3bfe2 // indirect
 	github.com/bhbosman/goerrors v0.0.0-20220623084908-4d7bbcd178cf // indirect
 	github.com/bhbosman/gomessageblock v0.0.0-20220617132215-32f430d7de62 // indirect
+	github.com/bhbosman/goprotoextra v0.0.2-0.20210817141206-117becbef7c7 // indirect
 	github.com/cenkalti/backoff/v4 v4.0.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/emirpasic/gods v1.12.0 // indirect
@@ -83,3 +83,5 @@ replace github.com/bhbosman/goConnectionManager => ../goConnectionManager
 replace github.com/rivo/tview => ../tview
 
 replace github.com/bhbosman/goprotoextra => ../goprotoextra
+
+replace github.com/cskr/pubsub => ../pubsub
