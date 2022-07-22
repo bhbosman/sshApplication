@@ -7,6 +7,7 @@ import (
 	"github.com/bhbosman/goUi/UiService"
 	"github.com/bhbosman/goUi/UiSlides/cmSlide"
 	"github.com/bhbosman/goUi/UiSlides/intoductionSlide"
+	"github.com/bhbosman/gocommon/GoFunctionCounter"
 	"github.com/bhbosman/gocommon/Services/interfaces"
 	fx2 "github.com/bhbosman/gocommon/fx"
 	"github.com/bhbosman/gocommon/fx/PubSub"
@@ -28,6 +29,7 @@ type SshConnectionUi struct {
 	PubSub                   *pubsub.PubSub
 	ConnectionManagerIHelper goConnectionManager.IHelper
 	UniqueReferenceService   interfaces.IUniqueReferenceService
+	GoFunctionCounter        GoFunctionCounter.IService
 }
 
 func (self *SshConnectionUi) Close() error {
@@ -76,6 +78,13 @@ func (self *SshConnectionUi) RunHandler() error {
 		),
 		Providers.ProvideUniqueReferenceServiceInstance(self.UniqueReferenceService),
 		PubSub.ProvidePubSubInstance("Application", self.PubSub),
+		fx.Provide(
+			fx.Annotated{
+				Target: func() GoFunctionCounter.IService {
+					return self.GoFunctionCounter
+				},
+			},
+		),
 		fx.Provide(
 			fx.Annotated{
 				Name: "Application",
@@ -134,6 +143,8 @@ func NewSshConnectionUi(
 	PubSub *pubsub.PubSub,
 	ConnectionManagerIHelper goConnectionManager.IHelper,
 	UniqueReferenceService interfaces.IUniqueReferenceService,
+	GoFunctionCounter GoFunctionCounter.IService,
+
 ) (*SshConnectionUi, error) {
 	baseChannelProcess := common.NewBaseChannelProcess(
 		sshChannel,
@@ -150,5 +161,6 @@ func NewSshConnectionUi(
 		PubSub:                   PubSub,
 		ConnectionManagerIHelper: ConnectionManagerIHelper,
 		UniqueReferenceService:   UniqueReferenceService,
+		GoFunctionCounter:        GoFunctionCounter,
 	}, nil
 }

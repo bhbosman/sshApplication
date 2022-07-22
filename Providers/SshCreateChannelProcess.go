@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"github.com/bhbosman/goCommsSshListener/common"
 	"github.com/bhbosman/goConnectionManager"
+	"github.com/bhbosman/gocommon/GoFunctionCounter"
 	"github.com/bhbosman/gocommon/Services/interfaces"
 	"github.com/cskr/pubsub"
 	"github.com/reactivex/rxgo/v2"
@@ -71,6 +72,7 @@ func (self *SshCreateChannelProcess) CreateChannelProcess(
 	parentCancelFunc context.CancelFunc,
 	onSend rxgo.NextFunc,
 	logger *zap.Logger,
+	GoFunctionCounter GoFunctionCounter.IService,
 ) (common.IChannelProcess, error) {
 	return NewSshConnectionUi(
 		sshChannel,
@@ -81,5 +83,6 @@ func (self *SshCreateChannelProcess) CreateChannelProcess(
 		self.PubSub,
 		self.ConnectionManagerIHelper,
 		self.UniqueReferenceService,
+		GoFunctionCounter,
 	)
 }
