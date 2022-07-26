@@ -5,7 +5,6 @@ import (
 	common2 "github.com/bhbosman/goCommsSshListener/common"
 	"github.com/bhbosman/goCommsSshListener/netListener"
 	"github.com/bhbosman/gocommon/messages"
-	"github.com/bhbosman/gocommon/model"
 	"github.com/bhbosman/gocomms/common"
 	"github.com/cskr/pubsub"
 	"go.uber.org/fx"
@@ -13,8 +12,6 @@ import (
 )
 
 func SshConnectionManager(
-	serviceIdentifier model.ServiceIdentifier,
-	serviceDependentOn model.ServiceIdentifier,
 	maxConnections int,
 	urlAsText string,
 ) fx.Option {
@@ -34,8 +31,6 @@ func SshConnectionManager(
 			}) (messages.CreateAppCallback, error) {
 				f := netListener.NewSshListenApp(
 					Name,
-					serviceIdentifier,
-					serviceDependentOn,
 					Name,
 					false,
 					nil,

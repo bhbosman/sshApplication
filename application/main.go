@@ -5,7 +5,6 @@ import (
 	"github.com/bhbosman/goConnectionManager"
 	"github.com/bhbosman/goFxApp"
 	"github.com/bhbosman/gocommon/Services/interfaces"
-	"github.com/bhbosman/gocommon/model"
 	"github.com/bhbosman/sshApplication/Providers"
 	"github.com/cskr/pubsub"
 	"go.uber.org/fx"
@@ -16,8 +15,6 @@ func main() {
 		"SSH App",
 		false,
 		Providers.SshConnectionManager(
-			model.NoName,
-			model.NoDependency,
 			512,
 			"tcp4://localhost:8888"),
 		fx.Provide(
