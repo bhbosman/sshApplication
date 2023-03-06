@@ -4,10 +4,10 @@ go 1.18
 
 require (
 	github.com/bhbosman/goCommsSshListener v0.0.0-20220614205207-b3d88b2f7ef8
-	github.com/bhbosman/goConnectionManager v0.0.0-20220802122816-d9db41f332dc
+	github.com/bhbosman/goConnectionManager v0.0.0-20230302065222-d613f6fe8f80
 	github.com/bhbosman/goFxApp v0.0.0-20220621055337-d5d1bfa131ee
-	github.com/bhbosman/goUi v0.0.0-20220802121659-b90381157031
-	github.com/bhbosman/gocommon v0.0.0-20220802132121-5e81013de07d
+	github.com/bhbosman/goUi v0.0.0-20230302065227-24c3cb06165e
+	github.com/bhbosman/gocommon v0.0.0-20230303055326-d59d6b655a59
 	github.com/bhbosman/gocomms v0.0.0-20220628074707-e93417aaaed2
 	github.com/cskr/pubsub v1.0.2
 	github.com/gdamore/tcell/v2 v2.5.1
@@ -19,7 +19,7 @@ require (
 )
 
 require (
-	github.com/bhbosman/goCommsDefinitions v0.0.0-20220801175552-c5aa68065af3 // indirect
+	github.com/bhbosman/goCommsDefinitions v0.0.0-20230302063431-887458f90947 // indirect
 	github.com/bhbosman/goCommsNetListener v0.0.0-20220614200404-f1193638b13b // indirect
 	github.com/bhbosman/goCommsStacks v0.0.0-20220611141421-a7d405cadbfa // indirect
 	github.com/bhbosman/goFxAppManager v0.0.0-20220730103022-02c299931769 // indirect
@@ -41,12 +41,12 @@ require (
 	github.com/teivah/onecontext v0.0.0-20200513185103-40f981bfd775 // indirect
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/dig v1.16.1 // indirect
-	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e // indirect
-	golang.org/x/net v0.0.0-20211112202133-69e39bad7dc2 // indirect
+	golang.org/x/crypto v0.7.0 // indirect
+	golang.org/x/net v0.8.0 // indirect
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
-	golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a // indirect
-	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/sys v0.6.0 // indirect
+	golang.org/x/term v0.6.0 // indirect
+	golang.org/x/text v0.8.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
