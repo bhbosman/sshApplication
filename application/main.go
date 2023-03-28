@@ -4,7 +4,7 @@ import (
 	"github.com/bhbosman/goCommsSshListener/common"
 	"github.com/bhbosman/goConnectionManager"
 	"github.com/bhbosman/goFxApp"
-	"github.com/bhbosman/gocommon/Services/interfaces"
+	"github.com/bhbosman/gocommon/services/interfaces"
 	"github.com/bhbosman/sshApplication/Providers"
 	"github.com/cskr/pubsub"
 	"go.uber.org/fx"
