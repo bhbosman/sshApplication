@@ -22,7 +22,7 @@ require (
 	github.com/bhbosman/goCommsDefinitions v0.0.0-20230313180751-41613a6b3173 // indirect
 	github.com/bhbosman/goCommsNetListener v0.0.0-20220614200404-f1193638b13b // indirect
 	github.com/bhbosman/goCommsStacks v0.0.0-20220611141421-a7d405cadbfa // indirect
-	github.com/bhbosman/goConn v0.0.0-20230317052122-2eec27fd9bc8 // indirect
+	github.com/bhbosman/goConn v0.0.0-20230327111455-7a39299fb0aa
 	github.com/bhbosman/goFxAppManager v0.0.0-20220730103022-02c299931769 // indirect
 	github.com/bhbosman/goerrors v0.0.0-20220623084908-4d7bbcd178cf // indirect
 	github.com/bhbosman/gomessageblock v0.0.0-20230308173223-e8144f25444c // indirect
