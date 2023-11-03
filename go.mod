@@ -4,11 +4,11 @@ go 1.18
 
 require (
 	github.com/bhbosman/goCommsSshListener v0.0.0-20220614205207-b3d88b2f7ef8
-	github.com/bhbosman/goConnectionManager v0.0.0-20230328152946-8854ec40e34b
+	github.com/bhbosman/goConnectionManager v0.0.0-20230329104211-b2d06385b410
 	github.com/bhbosman/goFxApp v0.0.0-20220621055337-d5d1bfa131ee
-	github.com/bhbosman/goUi v0.0.0-20230328181044-49e31970d158
+	github.com/bhbosman/goUi v0.0.0-20230328220052-834528d68f6d
 	github.com/bhbosman/gocommon v0.0.0-20230329101749-40db0f52d859
-	github.com/bhbosman/gocomms v0.0.0-20230307212550-0918a992672c
+	github.com/bhbosman/gocomms v0.0.0-20230329110556-946ebc6ff5f4
 	github.com/cskr/pubsub v1.0.2
 	github.com/gdamore/tcell/v2 v2.5.1
 	github.com/reactivex/rxgo/v2 v2.5.0
@@ -19,11 +19,10 @@ require (
 )
 
 require (
-	github.com/bhbosman/goCommsDefinitions v0.0.0-20230320101758-971a50fdbf8c // indirect
+	github.com/bhbosman/goCommsDefinitions v0.0.0-20230329100608-a6a24c060ad8 // indirect
 	github.com/bhbosman/goCommsNetListener v0.0.0-20220614200404-f1193638b13b // indirect
 	github.com/bhbosman/goCommsStacks v0.0.0-20220611141421-a7d405cadbfa // indirect
-
-	github.com/bhbosman/goFxAppManager v0.0.0-20230320053418-125763bdf8d5 // indirect
+	github.com/bhbosman/goFxAppManager v0.0.0-20230328220050-a5b50e43977e // indirect
 	github.com/bhbosman/goerrors v0.0.0-20220623084908-4d7bbcd178cf // indirect
 	github.com/bhbosman/gomessageblock v0.0.0-20230308173223-e8144f25444c // indirect
 	github.com/bhbosman/goprotoextra v0.0.2 // indirect
@@ -61,7 +60,6 @@ replace github.com/rivo/tview => github.com/bhbosman/tview v0.0.0-20230310100135
 
 replace github.com/bhbosman/gocomms => ../gocomms
 
-
 replace github.com/bhbosman/goCommsNetListener => ../goCommsNetListener
 
 replace github.com/bhbosman/goCommsSshListener => ../goCommsSshListener
@@ -85,5 +83,3 @@ replace github.com/bhbosman/goFxAppManager => ../goFxAppManager
 replace github.com/bhbosman/goConnectionManager => ../goConnectionManager
 
 replace github.com/bhbosman/goprotoextra => ../goprotoextra
-
-
