@@ -10,7 +10,7 @@ require (
 	github.com/bhbosman/goFxApp v0.0.0-20250307230611-15e28b32dfad
 	github.com/bhbosman/goUi v0.0.0-20250307150712-d06325af4877
 	github.com/bhbosman/gocommon v0.0.0-20250307235859-f370cb0a3bac
-	github.com/bhbosman/gocomms v0.0.0-20230730212408-04ba72ddb372
+	github.com/bhbosman/gocomms v0.0.0-20250308000247-0dafbc2926a9
 	github.com/cskr/pubsub v1.0.2
 	github.com/gdamore/tcell/v2 v2.8.1
 	github.com/reactivex/rxgo/v2 v2.5.0
@@ -41,7 +41,6 @@ require (
 	github.com/stretchr/objx v0.5.2 // indirect
 	github.com/stretchr/testify v1.10.0 // indirect
 	github.com/teivah/onecontext v1.3.0 // indirect
-	go.uber.org/atomic v1.11.0 // indirect
 	go.uber.org/dig v1.18.1 // indirect
 	golang.org/x/crypto v0.36.0 // indirect
 	golang.org/x/net v0.37.0 // indirect
@@ -61,27 +60,27 @@ replace github.com/cskr/pubsub => github.com/bhbosman/pubsub v1.0.3-0.2022080220
 replace github.com/rivo/tview => github.com/bhbosman/tview v0.0.0-20230310100135-f8b257a85d36
 
 //replace github.com/bhbosman/gocomms => ../gocomms
-
+//
 //replace github.com/bhbosman/goCommsNetListener => ../goCommsNetListener
-
+//
 //replace github.com/bhbosman/goCommsSshListener => ../goCommsSshListener
-
+//
 //replace github.com/bhbosman/goCommsDefinitions => ../goCommsDefinitions
-
+//
 //replace github.com/bhbosman/goCommsStacks => ../goCommsStacks
-
+//
 //replace github.com/bhbosman/goCommsSSHProtocols => ../goCommsSSHProtocols
-
+//
 //replace github.com/bhbosman/goCommsSSH => ../goCommsSSH
-
+//
 //replace github.com/bhbosman/goFxApp => ../goFxApp
 
 //replace github.com/bhbosman/goUi => ../goUi
 
 //replace github.com/bhbosman/goerrors => ../goerrors
-
+//
 //replace github.com/bhbosman/goFxAppManager => ../goFxAppManager
-
+//
 //replace github.com/bhbosman/goConnectionManager => ../goConnectionManager
-
+//
 //replace github.com/bhbosman/goprotoextra => ../goprotoextra
