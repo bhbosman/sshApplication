@@ -20,7 +20,7 @@ require (
 
 require (
 	github.com/bhbosman/goCommsDefinitions v0.0.0-20250308144130-64993b60920c // indirect
-	github.com/bhbosman/goCommsNetListener v0.0.0-20250308152827-7ea57b5923dc // indirect
+	github.com/bhbosman/goCommsNetListener v0.0.0-20250308154802-78cc2d086d08 // indirect
 	github.com/bhbosman/goCommsStacks v0.0.0-20250308150310-d89697671b2a // indirect
 	github.com/bhbosman/goFxAppManager v0.0.0-20250308140124-9230c32fe2ee // indirect
 	github.com/bhbosman/goerrors v0.0.0-20250307194237-312d070c8e38 // indirect
