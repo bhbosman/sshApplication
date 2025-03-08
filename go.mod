@@ -3,7 +3,7 @@ module github.com/bhbosman/sshApplication
 go 1.24.0
 
 require (
-	github.com/bhbosman/goCommsSshListener v0.0.0-20250308133848-b9b57eefd1d1
+	github.com/bhbosman/goCommsSshListener v0.0.0-20250308140155-38b9b715af14
 	github.com/bhbosman/goConnectionManager v0.0.0-20250308122653-53a96fe357f2
 	github.com/bhbosman/goFxApp v0.0.0-20250308072343-1987095b450b
 	github.com/bhbosman/goUi v0.0.0-20250308132651-2a5e82ef72b0

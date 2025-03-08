@@ -29,6 +29,8 @@ github.com/bhbosman/goCommsSshListener v0.0.0-20250308131935-98af16ec2ab9 h1:U8L
 github.com/bhbosman/goCommsSshListener v0.0.0-20250308131935-98af16ec2ab9/go.mod h1:AbKwmHKis/iP3TeDgZ2uAkEfOZq00P6a12huNB7tO1Y=
 github.com/bhbosman/goCommsSshListener v0.0.0-20250308133848-b9b57eefd1d1 h1:Ik1foD0ucqBb8eo+zTl/z842P7B/suszVkZFElBzEU0=
 github.com/bhbosman/goCommsSshListener v0.0.0-20250308133848-b9b57eefd1d1/go.mod h1:QcHJOKJBXLL7gmR6FxXg1ziEjZiIdDZ2Qyitmj8RFKw=
+github.com/bhbosman/goCommsSshListener v0.0.0-20250308140155-38b9b715af14 h1:3YbIF/4fNbvaZNMwx82x4Sedd93NpqWEOUWJvR9MFjc=
+github.com/bhbosman/goCommsSshListener v0.0.0-20250308140155-38b9b715af14/go.mod h1:Iw0i75erPT/y0a4cnI1Hb9MYYdjn3L2u3OD1G7Tacdc=
 github.com/bhbosman/goCommsStacks v0.0.0-20250308055233-8992b9d0c219 h1:nghsuMBcVHrahgdTP/KI+NNZR2k3itXPcoXTPBHD1N0=
 github.com/bhbosman/goCommsStacks v0.0.0-20250308055233-8992b9d0c219/go.mod h1:y3wvXWM7xiICR6gjzLuETzZSRJp5R+zIvh9o8aUHXMg=
 github.com/bhbosman/goCommsStacks v0.0.0-20250308073453-2a34f22d9bb1 h1:4FQytGmSPPEAv4Zb2bEWNVfjf8xJJUROf+7bj2o5Fs4=
