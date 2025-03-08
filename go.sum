@@ -5,6 +5,8 @@ github.com/bhbosman/goCommsDefinitions v0.0.0-20220801175552-c5aa68065af3/go.mod
 github.com/bhbosman/goCommsDefinitions v0.0.0-20230308211643-24fe88b2378e/go.mod h1:tkd0ohtBBlomjgZrSj1K7YHT6zb0td0X6v6Tv/kn/wA=
 github.com/bhbosman/goCommsDefinitions v0.0.0-20250308000247-4306925b3dfd h1:1z7B4HNVpYRZllTfjAtuvSI/Joh7+MlABhc2rfjDYmg=
 github.com/bhbosman/goCommsDefinitions v0.0.0-20250308000247-4306925b3dfd/go.mod h1:iD8gXP/wYO2bEcOv4103lssa7vajoQcU+k9Q5IsBgds=
+github.com/bhbosman/goCommsDefinitions v0.0.0-20250308074916-3e7c0d32b971 h1:4/hs9UMmWcASzQ5SG4pqkfaaqgzl2AzIE1o/AlziVSc=
+github.com/bhbosman/goCommsDefinitions v0.0.0-20250308074916-3e7c0d32b971/go.mod h1:YtxfrhWaceLlKwk4urRmrOiLjg38xSWoO0xtQbuJGiM=
 github.com/bhbosman/goCommsNetListener v0.0.0-20231011182118-3481e4a0204e h1:Ti083HNiaVvTR1H5CRS8KFgixlFxIFaMvt7xpjNVfF8=
 github.com/bhbosman/goCommsNetListener v0.0.0-20231011182118-3481e4a0204e/go.mod h1:yXFzTOyQlW39Wt70+jGWzNzBZqccHQgw71kF9JGEjdc=
 github.com/bhbosman/goCommsNetListener v0.0.0-20250308054504-9e394f3cd581 h1:a++W6if2QSiYLz7bnr2UVq5xmxgDTx9xeFNItvuF1KM=
@@ -23,6 +25,8 @@ github.com/bhbosman/goCommsStacks v0.0.0-20250308055233-8992b9d0c219 h1:nghsuMBc
 github.com/bhbosman/goCommsStacks v0.0.0-20250308055233-8992b9d0c219/go.mod h1:y3wvXWM7xiICR6gjzLuETzZSRJp5R+zIvh9o8aUHXMg=
 github.com/bhbosman/goCommsStacks v0.0.0-20250308073453-2a34f22d9bb1 h1:4FQytGmSPPEAv4Zb2bEWNVfjf8xJJUROf+7bj2o5Fs4=
 github.com/bhbosman/goCommsStacks v0.0.0-20250308073453-2a34f22d9bb1/go.mod h1:T/rbVuCWy0DJyeMb7j+WmiW2V4/f0UN/o42yJOHE5MQ=
+github.com/bhbosman/goCommsStacks v0.0.0-20250308122653-67040ed90c18 h1:fCsaTjUjrExk/PrAggcIe+A3/yaY/p9ViNglvupgxoQ=
+github.com/bhbosman/goCommsStacks v0.0.0-20250308122653-67040ed90c18/go.mod h1:8CYkY8G+BZASAdGkNzSUev3FAV62Tol7dOK7LccGRrE=
 github.com/bhbosman/goConnectionManager v0.0.0-20250307224538-a79ceb218fd0 h1:OjR/f0uvTnscaExqGxL0uqPWoOAYJetEVofEvvEEOFQ=
 github.com/bhbosman/goConnectionManager v0.0.0-20250307224538-a79ceb218fd0/go.mod h1:dMKhszqDuA7ziup+oBPXkiIHnNU8JPAt5vEvyNkXXxk=
 github.com/bhbosman/goConnectionManager v0.0.0-20250308054322-587c786bedb0 h1:XdF25zaOXJb9XZEQ8yWWay/0SsgYvWJF4T7bvpyh76s=
