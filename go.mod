@@ -3,12 +3,12 @@ module github.com/bhbosman/sshApplication
 go 1.24.0
 
 require (
-	github.com/bhbosman/goCommsSshListener v0.0.0-20250308072155-2a429d6813fe
-	github.com/bhbosman/goConnectionManager v0.0.0-20250308072343-5ecf88215e38
+	github.com/bhbosman/goCommsSshListener v0.0.0-20250308122653-e01bd75fb88f
+	github.com/bhbosman/goConnectionManager v0.0.0-20250308122653-53a96fe357f2
 	github.com/bhbosman/goFxApp v0.0.0-20250308072343-1987095b450b
-	github.com/bhbosman/goUi v0.0.0-20250308073057-c42a9b24bf52
+	github.com/bhbosman/goUi v0.0.0-20250308124821-836921ea8a1e
 	github.com/bhbosman/gocommon v0.0.0-20250308071735-43b385b00819
-	github.com/bhbosman/gocomms v0.0.0-20250308073453-53d6befb6d1a
+	github.com/bhbosman/gocomms v0.0.0-20250308122654-329e339db0e0
 	github.com/cskr/pubsub v1.0.2
 	github.com/gdamore/tcell/v2 v2.8.1
 	github.com/reactivex/rxgo/v2 v2.5.0
@@ -20,7 +20,7 @@ require (
 
 require (
 	github.com/bhbosman/goCommsDefinitions v0.0.0-20250308074916-3e7c0d32b971 // indirect
-	github.com/bhbosman/goCommsNetListener v0.0.0-20250308072116-bc3af6251376 // indirect
+	github.com/bhbosman/goCommsNetListener v0.0.0-20250308122653-28d9e53d4343 // indirect
 	github.com/bhbosman/goCommsStacks v0.0.0-20250308122653-67040ed90c18 // indirect
 	github.com/bhbosman/goFxAppManager v0.0.0-20250308072827-0bc0f03a9d29 // indirect
 	github.com/bhbosman/goerrors v0.0.0-20250307194237-312d070c8e38 // indirect
