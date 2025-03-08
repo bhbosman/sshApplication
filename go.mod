@@ -3,7 +3,7 @@ module github.com/bhbosman/sshApplication
 go 1.24.0
 
 require (
-	github.com/bhbosman/goCommsSshListener v0.0.0-20250308192153-2680a5c704e6
+	github.com/bhbosman/goCommsSshListener v0.0.0-20250308195851-97b1805045c4
 	github.com/bhbosman/goConnectionManager v0.0.0-20250308194756-b3c21d488492
 	github.com/bhbosman/goFxApp v0.0.0-20250308162224-38e18cab1c9b
 	github.com/bhbosman/goUi v0.0.0-20250308194827-3465482d7c6b
@@ -20,8 +20,8 @@ require (
 
 require (
 	github.com/bhbosman/goCommsDefinitions v0.0.0-20250308144130-64993b60920c // indirect
-	github.com/bhbosman/goCommsNetListener v0.0.0-20250308162159-3110c7d726b2 // indirect
-	github.com/bhbosman/goCommsStacks v0.0.0-20250308192125-9f32e0135afc // indirect
+	github.com/bhbosman/goCommsNetListener v0.0.0-20250308195846-03f74299dec9 // indirect
+	github.com/bhbosman/goCommsStacks v0.0.0-20250308195825-d8c70d3767da // indirect
 	github.com/bhbosman/goFxAppManager v0.0.0-20250308192215-e35e337e2f4e // indirect
 	github.com/bhbosman/goerrors v0.0.0-20250307194237-312d070c8e38 // indirect
 	github.com/bhbosman/gomessageblock v0.0.0-20250308073733-0b3daca12e3a // indirect
