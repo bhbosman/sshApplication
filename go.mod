@@ -6,8 +6,8 @@ require (
 	github.com/bhbosman/goCommsSshListener v0.0.0-20250308192153-2680a5c704e6
 	github.com/bhbosman/goConnectionManager v0.0.0-20250308194756-b3c21d488492
 	github.com/bhbosman/goFxApp v0.0.0-20250308162224-38e18cab1c9b
-	github.com/bhbosman/goUi v0.0.0-20250308192106-f0dba2b1ada7
-	github.com/bhbosman/gocommon v0.0.0-20250308155359-4baa9bec452e
+	github.com/bhbosman/goUi v0.0.0-20250308194827-3465482d7c6b
+	github.com/bhbosman/gocommon v0.0.0-20250308194442-9c45d7859806
 	github.com/bhbosman/gocomms v0.0.0-20250308192115-8af5b0178806
 	github.com/cskr/pubsub v1.0.2
 	github.com/gdamore/tcell/v2 v2.8.1
