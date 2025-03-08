@@ -5,11 +5,11 @@ go 1.23.0
 toolchain go1.24.0
 
 require (
-	github.com/bhbosman/goCommsSshListener v0.0.0-20231011182117-1b8b6292013f
+	github.com/bhbosman/goCommsSshListener v0.0.0-20250308053851-25125d5766db
 	github.com/bhbosman/goConnectionManager v0.0.0-20250307224538-a79ceb218fd0
 	github.com/bhbosman/goFxApp v0.0.0-20250307230611-15e28b32dfad
-	github.com/bhbosman/goUi v0.0.0-20250307150712-d06325af4877
-	github.com/bhbosman/gocommon v0.0.0-20250307235859-f370cb0a3bac
+	github.com/bhbosman/goUi v0.0.0-20250308052840-a0e5fd7e5f88
+	github.com/bhbosman/gocommon v0.0.0-20250308052839-0ebeb121f996
 	github.com/bhbosman/gocomms v0.0.0-20250308000247-0dafbc2926a9
 	github.com/cskr/pubsub v1.0.2
 	github.com/gdamore/tcell/v2 v2.8.1
@@ -21,7 +21,7 @@ require (
 )
 
 require (
-	github.com/bhbosman/goCommsDefinitions v0.0.0-20250307125227-bfc368fdddf9 // indirect
+	github.com/bhbosman/goCommsDefinitions v0.0.0-20250308000247-4306925b3dfd // indirect
 	github.com/bhbosman/goCommsNetListener v0.0.0-20231011182118-3481e4a0204e // indirect
 	github.com/bhbosman/goCommsStacks v0.0.0-20231011182118-47d6d38b38e4 // indirect
 	github.com/bhbosman/goFxAppManager v0.0.0-20250307225418-ef314d0a9319 // indirect
@@ -74,9 +74,9 @@ replace github.com/rivo/tview => github.com/bhbosman/tview v0.0.0-20230310100135
 //replace github.com/bhbosman/goCommsSSH => ../goCommsSSH
 //
 //replace github.com/bhbosman/goFxApp => ../goFxApp
-
+//
 //replace github.com/bhbosman/goUi => ../goUi
-
+//
 //replace github.com/bhbosman/goerrors => ../goerrors
 //
 //replace github.com/bhbosman/goFxAppManager => ../goFxAppManager
