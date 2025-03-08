@@ -3,11 +3,11 @@ module github.com/bhbosman/sshApplication
 go 1.24.0
 
 require (
-	github.com/bhbosman/goCommsSshListener v0.0.0-20250308122653-e01bd75fb88f
+	github.com/bhbosman/goCommsSshListener v0.0.0-20250308131935-98af16ec2ab9
 	github.com/bhbosman/goConnectionManager v0.0.0-20250308122653-53a96fe357f2
 	github.com/bhbosman/goFxApp v0.0.0-20250308072343-1987095b450b
 	github.com/bhbosman/goUi v0.0.0-20250308124821-836921ea8a1e
-	github.com/bhbosman/gocommon v0.0.0-20250308071735-43b385b00819
+	github.com/bhbosman/gocommon v0.0.0-20250308131803-28622f55deb1
 	github.com/bhbosman/gocomms v0.0.0-20250308122654-329e339db0e0
 	github.com/cskr/pubsub v1.0.2
 	github.com/gdamore/tcell/v2 v2.8.1

@@ -25,6 +25,8 @@ github.com/bhbosman/goCommsSshListener v0.0.0-20250308072155-2a429d6813fe h1:JYB
 github.com/bhbosman/goCommsSshListener v0.0.0-20250308072155-2a429d6813fe/go.mod h1:YzYoEdC/pFfRPtRzriIUgerruFKvqd2LzZWmSUA/nK4=
 github.com/bhbosman/goCommsSshListener v0.0.0-20250308122653-e01bd75fb88f h1:hxaRiYn27XJCtfAiwe/Uh4FJBRipedrSUqPFUThj+04=
 github.com/bhbosman/goCommsSshListener v0.0.0-20250308122653-e01bd75fb88f/go.mod h1:x0msORnoOQf78OJPtiV64VpfAWxRomLbLDS9uTWoGbU=
+github.com/bhbosman/goCommsSshListener v0.0.0-20250308131935-98af16ec2ab9 h1:U8LNX8e3FHpMTUFp/0OSijcCa/46Q4v85xwfPCeH7fg=
+github.com/bhbosman/goCommsSshListener v0.0.0-20250308131935-98af16ec2ab9/go.mod h1:AbKwmHKis/iP3TeDgZ2uAkEfOZq00P6a12huNB7tO1Y=
 github.com/bhbosman/goCommsStacks v0.0.0-20250308055233-8992b9d0c219 h1:nghsuMBcVHrahgdTP/KI+NNZR2k3itXPcoXTPBHD1N0=
 github.com/bhbosman/goCommsStacks v0.0.0-20250308055233-8992b9d0c219/go.mod h1:y3wvXWM7xiICR6gjzLuETzZSRJp5R+zIvh9o8aUHXMg=
 github.com/bhbosman/goCommsStacks v0.0.0-20250308073453-2a34f22d9bb1 h1:4FQytGmSPPEAv4Zb2bEWNVfjf8xJJUROf+7bj2o5Fs4=
@@ -63,6 +65,8 @@ github.com/bhbosman/gocommon v0.0.0-20250308052839-0ebeb121f996 h1:J4LPhDOOJ/tIJ
 github.com/bhbosman/gocommon v0.0.0-20250308052839-0ebeb121f996/go.mod h1:PcUe1UZjlmyuDrh2cEzNAgi+BQEV10LWktEL2C9BRS0=
 github.com/bhbosman/gocommon v0.0.0-20250308071735-43b385b00819 h1:B+7lAu+nnm9PI6M2ltgAD10Ay1H6StjvFEIVmmgZx4U=
 github.com/bhbosman/gocommon v0.0.0-20250308071735-43b385b00819/go.mod h1:6PneFIBNKkWgXncFgaqsSIeKFl1So5J5/QM2S2xule8=
+github.com/bhbosman/gocommon v0.0.0-20250308131803-28622f55deb1 h1:H6xBDuvTUHP3HWOcY6VdO4GBW5bqk0jM1dn8f2SYwD0=
+github.com/bhbosman/gocommon v0.0.0-20250308131803-28622f55deb1/go.mod h1:7lml5lQFGVyrvj3awVTQ0SdaqW3WdcKEC8hhcmNGOHE=
 github.com/bhbosman/gocomms v0.0.0-20250308000247-0dafbc2926a9 h1:/BmfEj0hapFf8jDW1yZ0ePcHjVNysBmxwcWQVE/zPBY=
 github.com/bhbosman/gocomms v0.0.0-20250308000247-0dafbc2926a9/go.mod h1:2nOwvEALJ2+vzFZfQTt/lAvMGYtvk1eCwWTuy+5WmYM=
 github.com/bhbosman/gocomms v0.0.0-20250308053431-cfd3e830d8a5 h1:XLbRBpGbpeSQjatBfiK1onmDIoRY9ajyiSZ/XSdww9M=
